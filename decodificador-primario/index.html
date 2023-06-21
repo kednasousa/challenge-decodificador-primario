@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Decodificador</title>
+</head>
+
+<body>
+  <header>
+    <img class="logo__alura" src="a.svg" alt="Logo Alura">
+  </header>
+
+  <main>
+    <section class="text-area">
+      <textarea class="text__area" cols="41" rows="4" placeholder="Digite seu texto ..."></textarea>
+
+      <div class="informacao"><img class="exclamação" src="!.svg"></div>
+
+      <div class="botoes">
+        <button class="botao__criptografar" onclick="botaoCriptografar()">Criptografar</button>
+        <button class="botao__descriptografar" onclick="botaoDescriptografar()">Descriptografar</button>
+      </div>
+    </section>
+
+    <section>
+      <textarea readonly class="mensagem" cols="20" rows="10""></textarea>
+            <button class=" botao__copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+        <p class="copiado"></p>
+    </main>
+
+
+    <footer>
+        <p class="texto__rodape">Challenge | Alura e Oracle -- Desenvolvido por <a href="" target="_blank"><strong>Kedna Sousa</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
